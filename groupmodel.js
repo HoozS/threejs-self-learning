@@ -11,7 +11,7 @@ const group1 = new THREE.Group();
 group1.name = "高楼";
 for (let i = 0; i < 5; i++) {
     const cube = new THREE.Mesh(geometry, material);
-    cube.name = i+1+"号楼";
+    cube.name = i + 1 + "号楼";
     cube.position.x = i * 30;
     group1.add(cube);
 }
@@ -21,7 +21,7 @@ const group2 = new THREE.Group();
 group2.name = "低楼";
 for (let i = 0; i < 5; i++) {
     const cube = new THREE.Mesh(new THREE.BoxGeometry(20, 25, 10), material);
-    cube.name = i+6+"号楼";
+    cube.name = i + 6 + "号楼";
     cube.position.x = i * 30;
     group2.add(cube);
 }
