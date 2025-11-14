@@ -10,5 +10,6 @@
 
 ```javascript
 const textureLoader = new THREE.TextureLoader(); // 纹理加载器
+// 修改此处的路径到新纹理
 const groundTexture = textureLoader.load('textures/glass.jpg'); // 加载纹理
 ```
